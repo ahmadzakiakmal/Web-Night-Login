@@ -1,9 +1,10 @@
+import Image from "next/image";
+
 export const HeroLines = () => {
   return (
     <div className="absolute top-0 right-0 w-[41%] h-1/2">
-      <svg
-        width="806"
-        height="542"
+      <Image src="/HeroLines.png" width={2000} height={2000} alt="Lines" />
+      {/* <svg
         viewBox="0 0 806 542"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -517,7 +518,7 @@ export const HeroLines = () => {
             />
           </filter>
         </defs>
-      </svg>
+      </svg> */}
     </div>
   );
 };
