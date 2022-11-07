@@ -1,11 +1,11 @@
 import { HeroLines } from "./HeroLines"
-import { LogoText } from "./LogoText"
+import { HeroMain } from "./HeroMain"
 
 export const Hero = () => {
   return(
-    <div className="bg-white h-[92vh] w-full flex justify-center items-center relative">
+    <div className="bg-white h-[92vh] w-full relative">
       <HeroLines />
-      <LogoText />
+      <HeroMain />
     </div>
   )
 }
