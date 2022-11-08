@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import { AboutUs } from "../components/AboutUs/AboutUs";
 import { Hero } from "../components/Home/Hero";
 import { Navbar } from "../components/Navbar";
 
@@ -15,6 +16,7 @@ export default function Home() {
       <main>
         <Navbar />
         <Hero />
+        <AboutUs />
       </main>
 
       <footer className="">
