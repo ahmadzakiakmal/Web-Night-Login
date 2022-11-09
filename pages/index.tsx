@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { AboutUs } from "../components/Home/AboutUs/AboutUs";
+import { Communities } from "../components/Home/Communities/Communities";
 import { Events } from "../components/Home/Events.tsx/Events";
 import { Hero } from "../components/Home/Hero/Hero";
 import { Navbar } from "../components/Navbar";
@@ -19,6 +20,7 @@ export default function Home() {
         <Hero />
         <AboutUs />
         <Events />
+        <Communities />
       </main>
 
       <footer className="">
