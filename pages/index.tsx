@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { AboutUs } from "../components/AboutUs/AboutUs";
+import { Events } from "../components/Events.tsx/Events";
 import { Hero } from "../components/Home/Hero";
 import { Navbar } from "../components/Navbar";
 
@@ -17,6 +18,7 @@ export default function Home() {
         <Navbar />
         <Hero />
         <AboutUs />
+        <Events />
       </main>
 
       <footer className="">
