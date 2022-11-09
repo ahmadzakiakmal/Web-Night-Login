@@ -10,7 +10,7 @@ export const AboutUs = () => {
       {/* content */}
       <div className="z-10 w-[90%]">
         <div className="flex text-[24px] justify-center">
-          <p className="max-w-[50ch] pr-5 self-center">
+          <div className="max-w-[50ch] pr-5 self-center">
             <h1 className="text-6xl text-[#494949] font-bold mb-[20px] w-fit">
               About Us
             </h1>
@@ -19,7 +19,7 @@ export const AboutUs = () => {
             mahasiswa DTETI yang memiliki minat di bidang IT untuk mengembangkan
             kemampuan, kreativitas, inovasi, dan memperluas wawasan terkait
             bidang-bidang IT.
-          </p>
+          </div>
           <div className="h-[300px] aspect-square">
             <Image
               src="/NL Assets/Night Login/square.png"
