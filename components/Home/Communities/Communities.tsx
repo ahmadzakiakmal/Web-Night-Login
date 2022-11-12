@@ -11,7 +11,7 @@ export const Communities = () => {
       </h1>
       <div className="grid grid-cols-3 mx-[22%] gap-x-4 gap-y-5 relative z-10">
         {communities.map((community) => {
-          return <CommunityCard image={`/NL Assets/${community}.png`} />;
+          return <CommunityCard name={community} />;
         })}
         {/* <div className="bg-dark-red h-[50%] w-full absolute bottom-0 left-0 z-1"></div> */}
       </div>
