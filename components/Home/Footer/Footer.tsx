@@ -3,7 +3,7 @@ import Image from "next/image";
 export const Footer = () => {
   return (
     <div className="bg-black px-16 py-8">
-      <div className="line bg-white my-5"></div>
+      <div className="line bg-white bg-opacity-70 my-5"></div>
       <div className="flex justify-between mb-10 h-max">
         <div className="w-[150px] m-4 shadow-[8px_8px_0] shadow-slate-600 rounded-[30px]">
           <Image
@@ -58,7 +58,7 @@ export const Footer = () => {
           Copyright &copy; 2022 | Night Login.
         </div>
       </div>
-      <div className="line bg-white my-5"></div>
+      <div className="line bg-white bg-opacity-70 my-5"></div>
     </div>
   );
 };
