@@ -6,7 +6,7 @@ interface PropsInterface {
 
 export const CommunityCard = (props: PropsInterface) => {
   return (
-    <div className="w-fit aspect-square bg-transparent outline outline-2 p-1 rounded-[20px] grid place-items-center cursor-pointer z-10 hover:shadow-[0_0_10px_1px_#000000] bg-slate-600 bg-opacity-80 hover:bg-opacity-100">
+    <div className="w-fit aspect-square bg-transparent outline outline-2 p-1 rounded-[20px] grid place-items-center cursor-pointer z-10 hover:shadow-[0_0_10px_1px_#000000] bg-slate-600 hover:bg-opacity-95 bg-opacity-100">
       <Image
         src={props.image}
         width={500}
