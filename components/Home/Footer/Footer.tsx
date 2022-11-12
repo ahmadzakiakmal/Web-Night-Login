@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FaFacebook, FaTwitter, FaLinkedin, FaYoutube, FaInstagram, FaGooglePlus, FaPinterest, FaRss } from "react-icons/fa"
 
 export const Footer = () => {
   return (
@@ -21,30 +22,30 @@ export const Footer = () => {
           </div>
           <div className="flex gap-5 mt-8">
             <h1 className="mr-10">Social Media</h1>
-            <div>
-              FB
-            </div>
-            <div>
-              FB
-            </div>
-            <div>
-              FB
-            </div>
-            <div>
-              FB
-            </div>
-            <div>
-              FB
-            </div>
-            <div>
-              FB
-            </div>
-            <div>
-              FB
-            </div>
-            <div>
-              FB
-            </div>
+            <a href="#" className="button hover:text-blue-200">
+              <FaFacebook />
+            </a>
+            <a href="#" className="button hover:text-blue-200">
+              <FaTwitter />
+            </a>
+            <a href="#" className="button hover:text-blue-200">
+              <FaLinkedin />
+            </a>
+            <a href="#" className="button hover:text-blue-200">
+              <FaYoutube />
+            </a>
+            <a href="#" className="button hover:text-blue-200">
+              <FaInstagram />
+            </a>
+            <a href="#" className="button hover:text-blue-200">
+              <FaGooglePlus />
+            </a>
+            <a href="#" className="button hover:text-blue-200">
+              <FaPinterest />
+            </a>
+            <a href="#" className="button hover:text-blue-200">
+              <FaRss />
+            </a>
           </div>
         </div>
       </div>
