@@ -26,6 +26,11 @@ a {
   cursor: pointer;
 }
 
+.line {
+  width: 100%;
+  height: 1px;;
+}
+
 /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
