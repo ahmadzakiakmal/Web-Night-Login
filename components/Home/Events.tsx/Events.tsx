@@ -14,7 +14,7 @@ export const Events = () => {
         <EventCard title="Internal Workshop" image="InternalWorkshop.png" desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dignissimos nulla accusantium omnis, similique illo facilis deserunt unde doloribus? Dolores." />
       </div>
       <div className="mt-[20px]">
-        <div className="bg-white text-dark-red w-fit mx-auto text-[25px] px-[15px] py-[5px] rounded font-bold font-Lato">See More</div>
+        <div className="button bg-white text-dark-red w-fit mx-auto text-[25px] px-[15px] py-[5px] rounded font-bold font-Lato">See More</div>
       </div>
     </div>
   );
