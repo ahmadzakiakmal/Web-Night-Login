@@ -3,6 +3,7 @@ import Image from "next/image";
 import { AboutUs } from "../components/Home/AboutUs/AboutUs";
 import { Communities } from "../components/Home/Communities/Communities";
 import { Events } from "../components/Home/Events.tsx/Events";
+import { Footer } from "../components/Home/Footer/Footer";
 import { Hero } from "../components/Home/Hero/Hero";
 import { Navbar } from "../components/Navbar";
 
@@ -24,7 +25,7 @@ export default function Home() {
       </main>
 
       <footer className="">
-        <a></a>
+        <Footer />
       </footer>
     </div>
   );
