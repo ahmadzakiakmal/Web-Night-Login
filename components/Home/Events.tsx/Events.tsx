@@ -3,7 +3,7 @@ import { EventsLines } from "./EventsLines";
 
 export const Events = () => {
   return (
-    <div className="h-screen bg-dark-red relative overflow-y-hidden flex flex-col justify-center">
+    <div id="Events" className="h-screen bg-dark-red relative overflow-y-hidden flex flex-col justify-center">
       <EventsLines />
       <h1 className="text-6xl text-white font-bold text-center mb-[80px]">
         Our Events

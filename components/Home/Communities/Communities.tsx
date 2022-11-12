@@ -4,7 +4,7 @@ import { CommunityCard } from "./CommunityCard";
 export const Communities = () => {
   const communities = ["NLNC", "NUXC", "NCPC", "NADC", "NWDC", "NDDC"];
   return (
-    <div className="h-screen bg-white relative flex flex-col items-center justify-center gap-5">
+    <div id="Communities" className="h-screen bg-white relative flex flex-col items-center justify-center gap-5">
       <CommunitiesLines />
       <h1 className="text-6xl text-[#53585F] font-bold text-center z-10">
         Our Communities

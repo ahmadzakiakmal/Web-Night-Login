@@ -3,7 +3,7 @@ import { AboutUsLines } from "./AboutUsLines";
 
 export const AboutUs = () => {
   return (
-    <div className="w-full bg-white relative h-[100vh] flex justify-center items-center">
+    <div id="About" className="w-full bg-white relative h-[100vh] flex justify-center items-center">
       {/* png / svg  */}
       <div className="w-[20%] h-[100vh] bg-dark-red absolute top-0 right-0 z-0"></div>
       <AboutUsLines />
