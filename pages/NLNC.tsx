@@ -1,5 +1,18 @@
+import { Cover } from "../components/CommunityPage/Cover/Cover";
+import { PageHead } from "../components/CommunityPage/PageHead";
+import { Navbar } from "../components/Navbar";
+
 export default function NLNC() {
-  return(
-    <h1>NLNC</h1>
-  )
+  const about = "Merupakan komunitas bagi mahasiswa yang memiliki ketertarikan pada web baik itu web development maupun web design."
+  return (
+    <div>
+      <PageHead communityName="LINUX AND NETWORKING" shortName="NLNC" />
+      <main>
+        {/* Navbar */}
+        <Navbar />
+        {/* Cover */}
+        <Cover shortName="NLNC" communityName="Linux & Networking" about={about}/>
+      </main>
+    </div>
+  );
 }
