@@ -1,4 +1,4 @@
-import { HeroMain } from "../../HeroMain";
+import { HeroMain } from "./HeroMain";
 import { HeroLines } from "./HeroLines";
 
 export const Hero = () => {
