@@ -1,13 +1,13 @@
 .glow_red {
-  text-shadow: 0px 10px 22px #FF4B4B;
-  /* animation: glow_red 2s ease-in-out infinite alternate; */
+  /* text-shadow: 0px 10px 22px #FF4B4B; */
+  animation: glow_red 2s infinite alternate;
 }
 
-/* @keyframes glow_red {
+@keyframes glow_red {
   0% {
     text-shadow: 0px 10px 19px #FF4B4B;
   }
   100% {
     text-shadow: 0px 10px 20px #FF4B4B, 0px 10px 25px #FF4B4B;
   }
-} */
+}
