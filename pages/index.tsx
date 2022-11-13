@@ -5,6 +5,7 @@ import { Communities } from "../components/Home/Communities/Communities";
 import { Events } from "../components/Home/Events.tsx/Events";
 import { Footer } from "../components/Home/Footer/Footer";
 import { Hero } from "../components/Home/Hero/Hero";
+import { OurTeam } from "../components/Home/OurTeam/OurTeam";
 import { Navbar } from "../components/Navbar";
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
         <AboutUs />
         <Events />
         <Communities />
+        <OurTeam />
       </main>
 
       <footer className="">
