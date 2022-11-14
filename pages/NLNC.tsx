@@ -11,7 +11,7 @@ export default function NLNC() {
         {/* Navbar */}
         <Navbar />
         {/* Cover */}
-        <Cover shortName="NLNC" communityName="Linux & Networking" about={about}/>
+        <Cover shortName="NLNC" communityName="Linux and Networking" about={about} accentColor="bg-[#9E9D94]"/>
       </main>
     </div>
   );
