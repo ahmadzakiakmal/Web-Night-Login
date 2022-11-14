@@ -11,7 +11,7 @@ export default function NCPC() {
         {/* Navbar */}
         <Navbar />
         {/* Cover */}
-        <Cover communityName="Competitive Programming" shortName="NCPC" about={about}/>
+        <Cover communityName="Competitive Programming" shortName="NCPC" about={about} accentColor="bg-[#96EDB8]"/>
       </main>
     </div>
   );
