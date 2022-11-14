@@ -1,17 +1,19 @@
 import { CoverImage } from "./CoverImage";
 import Image from "next/image";
+import { CommunityTeam } from "./CommunityTeam";
 
 interface PropsInterface {
   shortName: string;
   communityName: string;
   about: string;
+  accentColor: string;
 }
 
 export const Cover = (props: PropsInterface) => {
   return (
-    <div className="h-[92vh] relative flex items-center">
+    <div className="min-h-[92vh] relative flex items-center">
       <CoverImage shortName={props.shortName} />
-      <div className="flex mt-8 w-fit mx-auto justify-between p-[40px] gap-32">
+      <div className="flex mt-8 mx-auto justify-between w-[70%]">
         {/* Logo */}
         <div className="z-10 grid place-items-center">
           <Image
@@ -30,7 +32,13 @@ export const Cover = (props: PropsInterface) => {
             </h1>
             <h2 className="mt-[-30px]  text-[#4e4e4e] max-w-[40ch]">{`NIGHTLOGIN ${props.communityName.toLocaleUpperCase()} COMMUNITY`}</h2>
           </div>
-          <p className="max-w-[30ch] text-[22px]">{props.about}</p>
+          <p className="max-w-[30ch] text-[22px] text-[#4e4e4e] mb-10">
+            {props.about}
+          </p>
+          <div className="flex justify-between gap-3">
+            <CommunityTeam name="Lorem Ipsum Lorem" position="Head" bgColor={props.accentColor}/>
+            <CommunityTeam name="Lorem Ipsum Lorem" position="Vice" bgColor={props.accentColor}/>
+          </div>
         </div>
       </div>
     </div>
