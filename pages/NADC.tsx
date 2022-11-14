@@ -11,7 +11,7 @@ export default function NADC() {
         {/* Navbar */}
         <Navbar />
         {/* Cover */}
-        <Cover communityName="Application Development" shortName="NADC" about={about}/>
+        <Cover communityName="Application Development" shortName="NADC" about={about} accentColor="bg-[#EBE7D6]"/>
       </main>
     </div>
   );
