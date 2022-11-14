@@ -11,7 +11,7 @@ export default function NDDC() {
         {/* Navbar */}
         <Navbar />
         {/* Cover */}
-        <Cover communityName="Data Science and Data Analytics" shortName="NDDC" about={about}/>
+        <Cover communityName="Data Science and Data Analytics" shortName="NDDC" about={about} accentColor="bg-[#858485]" />
       </main>
     </div>
   );
