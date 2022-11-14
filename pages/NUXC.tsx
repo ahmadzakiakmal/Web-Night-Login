@@ -11,7 +11,7 @@ export default function NUXC() {
         {/* Navbar */}
         <Navbar />
         {/* Cover */}
-        <Cover communityName="User Experience" shortName="NUXC" about={about}/>
+        <Cover communityName="User Experience" shortName="NUXC" about={about} accentColor="bg-[#D17E88]"/>
       </main>
     </div>
   );
