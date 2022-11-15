@@ -3,6 +3,7 @@ import { PageHead } from "../components/CommunityPage/PageHead";
 import { Navbar } from "../components/Navbar";
 import { EventCard } from "../components/Home/Events.tsx/EventCard";
 import { EventsLines } from "../components/Home/Events.tsx/EventsLines";
+import { CommunityNavbar } from "../components/CommunityPage/CommunityNavbar";
 
 export default function NADC() {
   const about =
@@ -12,7 +13,7 @@ export default function NADC() {
       <PageHead communityName="Application Development" shortName="NADC" />
       <main>
         {/* Navbar */}
-        <Navbar />
+        <CommunityNavbar page="NADC" />
         {/* Cover */}
         <Cover
           communityName="Application Development"
