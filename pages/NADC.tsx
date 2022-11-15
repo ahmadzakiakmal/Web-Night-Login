@@ -7,7 +7,7 @@ import { CommunityNavbar } from "../components/CommunityPage/CommunityNavbar";
 
 export default function NADC() {
   const about =
-    "Merupakan komunitas bagi mahasiswa yang memiliki ketertarikan pada web baik itu web development maupun web design.";
+    "Merupakan komunitas bagi mahasiswa yang memiliki ketertarikan pada Application Development, baik itu Android, iOS, maupun cross-platform.";
   return (
     <div>
       <PageHead communityName="Application Development" shortName="NADC" />
@@ -20,6 +20,8 @@ export default function NADC() {
           shortName="NADC"
           about={about}
           accentColor="bg-[#EBE7D6]"
+          headName="Firdaus Bisma Suryakusuma"
+          viceName="Muhammad Hasan Chamdany"
         />
         {/* Content */}
         <div className="min-h-screen w-full bg-[#b0afa5] relative">
