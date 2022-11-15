@@ -1,6 +1,6 @@
+import { CommunityNavbar } from "../components/CommunityPage/CommunityNavbar";
 import { Cover } from "../components/CommunityPage/Cover/Cover";
 import { PageHead } from "../components/CommunityPage/PageHead";
-import { Navbar } from "../components/Navbar";
 import { EventCard } from "../components/Home/Events.tsx/EventCard";
 import { EventsLines } from "../components/Home/Events.tsx/EventsLines";
 
@@ -11,7 +11,7 @@ export default function NCPC() {
       <PageHead communityName="Competitive Programming" shortName="NCPC" />
       <main>
         {/* Navbar */}
-        <Navbar />
+        <CommunityNavbar page="NCPC" />
         {/* Cover */}
         <Cover communityName="Competitive Programming" shortName="NCPC" about={about} accentColor="bg-[#96EDB8]"/>
         {/* Content */}
