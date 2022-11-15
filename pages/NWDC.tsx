@@ -19,6 +19,8 @@ export default function NWDC() {
           communityName="Web Development"
           about={about}
           accentColor="bg-[#8CCBED]"
+          headName="Aldo Arya Saka Mukti"
+          viceName="Alphonsus Jovian Joy Reynaldo"
         />
         {/* Content */}
         <div className="min-h-screen w-full bg-[#3D81A5] relative">
