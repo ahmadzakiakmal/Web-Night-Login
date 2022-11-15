@@ -6,7 +6,7 @@ import { CommunityNavbar } from "../components/CommunityPage/CommunityNavbar";
 
 export default function NLNC() {
   const about =
-    "Merupakan komunitas bagi mahasiswa yang memiliki ketertarikan pada web baik itu web development maupun web design.";
+    "Merupakan komunitas bagi mahasiswa yang tertarik pada Linux, jaringan komputer, dan cyber security.";
   return (
     <div>
       <PageHead communityName="LINUX AND NETWORKING" shortName="NLNC" />
@@ -19,6 +19,8 @@ export default function NLNC() {
           communityName="Linux and Networking"
           about={about}
           accentColor="bg-[#9E9D94]"
+          headName="Muhammad Farrel Rafirizqy"
+          viceName="Novaldy Pratama"
         />
         {/* Content */}
         <div className="min-h-screen w-full bg-[#59574A] relative">
