@@ -8,7 +8,7 @@ export const Events = () => {
       <h1 className="text-6xl text-white font-bold text-center mb-[80px]">
         Our Events
       </h1>
-      <div className="grid grid-flow-col place-items-center z-10">
+      <div className="grid grid-cols-3 place-items-center z-10 px-32 gap-3">
         <EventCard title="Find IT!" image="FindIT.png" desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dignissimos nulla accusantium omnis, similique illo facilis deserunt unde doloribus? Dolores." />
         <EventCard title="AHT" image="AHT.png" desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dignissimos nulla accusantium omnis, similique illo facilis deserunt unde doloribus? Dolores." />
         <EventCard title="Internal Workshop" image="InternalWorkshop.png" desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dignissimos nulla accusantium omnis, similique illo facilis deserunt unde doloribus? Dolores." />
