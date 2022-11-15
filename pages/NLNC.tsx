@@ -1,8 +1,8 @@
 import { Cover } from "../components/CommunityPage/Cover/Cover";
 import { PageHead } from "../components/CommunityPage/PageHead";
-import { Navbar } from "../components/Navbar";
 import { EventCard } from "../components/Home/Events.tsx/EventCard";
 import { EventsLines } from "../components/Home/Events.tsx/EventsLines";
+import { CommunityNavbar } from "../components/CommunityPage/CommunityNavbar";
 
 export default function NLNC() {
   const about =
@@ -12,7 +12,7 @@ export default function NLNC() {
       <PageHead communityName="LINUX AND NETWORKING" shortName="NLNC" />
       <main>
         {/* Navbar */}
-        <Navbar />
+        <CommunityNavbar page="NLNC"/>
         {/* Cover */}
         <Cover
           shortName="NLNC"
