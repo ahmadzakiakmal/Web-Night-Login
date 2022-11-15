@@ -1,8 +1,8 @@
+import { CommunityNavbar } from "../components/CommunityPage/CommunityNavbar";
 import { Cover } from "../components/CommunityPage/Cover/Cover";
 import { PageHead } from "../components/CommunityPage/PageHead";
 import { EventCard } from "../components/Home/Events.tsx/EventCard";
 import { EventsLines } from "../components/Home/Events.tsx/EventsLines";
-import { Navbar } from "../components/Navbar";
 
 export default function NWDC() {
   const about =
@@ -12,7 +12,7 @@ export default function NWDC() {
       <PageHead communityName="Web Development" shortName="NWDC" />
       <main>
         {/* Navbar */}
-        <Navbar />
+        <CommunityNavbar page="NWDC"/>
         {/* Cover */}
         <Cover
           shortName="NWDC"
