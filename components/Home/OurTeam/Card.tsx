@@ -12,7 +12,7 @@ export const Card = (props:PropsInterface) => {
         <FaUserAlt />
       </div>
       <div className="min-h-[30%] w-full absolute bottom-0 left-0 z-10 flex flex-col items-center justify-center bg-dark-red p-2">
-        <h1 className="text-xl text-white font-bold">{props.name}</h1>
+        <h1 className="text-lg text-center text-white font-bold">{props.name}</h1>
         <h1 className="text-md text-white">{props.position}</h1>
       </div>
     </div>

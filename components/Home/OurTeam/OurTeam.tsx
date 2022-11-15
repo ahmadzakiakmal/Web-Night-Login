@@ -9,13 +9,13 @@ export const OurTeam = () => {
         Our Team
       </h1>
       <div className="flex justify-center gap-10 mb-10">
-        <Card name="Lorem Ipsum" position="President"/>
-        <Card name="Lorem Ipsum" position="Vice" />
+        <Card name="Samatha Marhaendra P" position="President"/>
+        <Card name="Christian Ale Perdana" position="Vice" />
       </div>
       <div className="flex justify-center gap-5">
-        <Card name="Lorem Ipsum" position="Head of Public Relation" />
-        <Card name="Lorem Ipsum" position="Head of Creative Media" />
-        <Card name="Lorem Ipsum" position="Head of Administration" />
+        <Card name="Sagara Aldavy" position="Head of Public Relation" />
+        <Card name="Arifah Amelia T" position="Head of Creative Media" />
+        <Card name="Gerrit Ezra Yudi K" position="Head of Administration" />
       </div>
     </div>
   );
