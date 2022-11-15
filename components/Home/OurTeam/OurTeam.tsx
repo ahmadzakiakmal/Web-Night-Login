@@ -6,7 +6,7 @@ export const OurTeam = () => {
     <div className="bg-dark-red h-[110vh] relative flex flex-col justify-center">
       <AboutUsLines />
       <h1 className="text-6xl text-white font-bold text-center z-10 mb-10">
-        Our Team
+        Team Structure
       </h1>
       <div className="flex justify-center gap-10 mb-10">
         <Card name="Samatha Marhaendra P" position="President"/>
