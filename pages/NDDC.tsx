@@ -6,7 +6,7 @@ import { CommunityNavbar } from "../components/CommunityPage/CommunityNavbar";
 
 export default function NDDC() {
   const about =
-    "Merupakan komunitas bagi mahasiswa yang memiliki ketertarikan pada web baik itu web development maupun web design.";
+    "Merupakan komunitas bagi mahasiswa yang memiliki ketertarikan pada bidang Data Analytics dan Data Science, seperti Big Data, AI, Data Visualization, dan lain-lain.";
   return (
     <div>
       <PageHead
@@ -22,6 +22,8 @@ export default function NDDC() {
           shortName="NDDC"
           about={about}
           accentColor="bg-[#858485]"
+          headName="Rizky Alif Ramadhan"
+          viceName="Karunia Perjuangan"
         />
         {/* Content */}
         <div className="min-h-screen w-full bg-[#312F2F] relative">
