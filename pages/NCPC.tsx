@@ -5,7 +5,8 @@ import { EventCard } from "../components/Home/Events.tsx/EventCard";
 import { EventsLines } from "../components/Home/Events.tsx/EventsLines";
 
 export default function NCPC() {
-  const about = "Merupakan komunitas bagi mahasiswa yang memiliki ketertarikan pada web baik itu web development maupun web design."
+  const about =
+    "Merupakan komunitas bagi mahasiswa yang tertarik pada bidang Competitive Programming.";
   return (
     <div>
       <PageHead communityName="Competitive Programming" shortName="NCPC" />
@@ -13,7 +14,14 @@ export default function NCPC() {
         {/* Navbar */}
         <CommunityNavbar page="NCPC" />
         {/* Cover */}
-        <Cover communityName="Competitive Programming" shortName="NCPC" about={about} accentColor="bg-[#96EDB8]"/>
+        <Cover
+          communityName="Competitive Programming"
+          shortName="NCPC"
+          about={about}
+          accentColor="bg-[#96EDB8]"
+          headName="Harry Krisna Darmawan"
+          viceName="Wiweka Yoga Sadewa"
+        />
         {/* Content */}
         <div className="min-h-screen w-full bg-[#30A758] relative">
           <EventsLines />
