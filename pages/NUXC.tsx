@@ -1,6 +1,6 @@
+import { CommunityNavbar } from "../components/CommunityPage/CommunityNavbar";
 import { Cover } from "../components/CommunityPage/Cover/Cover";
 import { PageHead } from "../components/CommunityPage/PageHead";
-import { Navbar } from "../components/Navbar";
 import { EventCard } from "../components/Home/Events.tsx/EventCard";
 import { EventsLines } from "../components/Home/Events.tsx/EventsLines";
 
@@ -11,7 +11,7 @@ export default function NUXC() {
       <PageHead communityName="User Experience" shortName="NUXC" />
       <main>
         {/* Navbar */}
-        <Navbar />
+        <CommunityNavbar page="NUXC"/>
         {/* Cover */}
         <Cover communityName="User Experience" shortName="NUXC" about={about} accentColor="bg-[#D17E88]"/>
         {/* Content */}
