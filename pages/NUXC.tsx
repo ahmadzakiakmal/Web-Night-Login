@@ -5,15 +5,23 @@ import { EventCard } from "../components/Home/Events.tsx/EventCard";
 import { EventsLines } from "../components/Home/Events.tsx/EventsLines";
 
 export default function NUXC() {
-  const about = "Merupakan komunitas bagi mahasiswa yang memiliki ketertarikan pada web baik itu web development maupun web design."
+  const about =
+    "Merupakan komunitas bagi mahasiswa yang menyukai ataupun ingin menggeluti bidang User Experience dan Design.";
   return (
     <div>
       <PageHead communityName="User Experience" shortName="NUXC" />
       <main>
         {/* Navbar */}
-        <CommunityNavbar page="NUXC"/>
+        <CommunityNavbar page="NUXC" />
         {/* Cover */}
-        <Cover communityName="User Experience" shortName="NUXC" about={about} accentColor="bg-[#D17E88]"/>
+        <Cover
+          communityName="User Experience"
+          shortName="NUXC"
+          about={about}
+          accentColor="bg-[#D17E88]"
+          headName="Tiara Kesuma Putri"
+          viceName="Annisa Somaningtyas"
+        />
         {/* Content */}
         <div className="min-h-screen w-full bg-[#A52A3A] bg-opacity-90 relative">
           <EventsLines />
