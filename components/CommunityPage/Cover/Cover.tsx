@@ -7,6 +7,8 @@ interface PropsInterface {
   communityName: string;
   about: string;
   accentColor: string;
+  headName: string;
+  viceName: string;
 }
 
 export const Cover = (props: PropsInterface) => {
@@ -27,17 +29,17 @@ export const Cover = (props: PropsInterface) => {
         {/* About */}
         <div className="z-10 flex flex-col justify-center">
           <div className="mb-5">
-            <h1 className="text-[90px] font-bold text-[#494949] tracking-widest">
+            <h1 className="text-[90px] mt-[-30px] font-bold text-[#494949] tracking-widest">
               {props.shortName}
             </h1>
             <h2 className="mt-[-30px]  text-[#4e4e4e] max-w-[40ch]">{`NIGHTLOGIN ${props.communityName.toLocaleUpperCase()} COMMUNITY`}</h2>
           </div>
-          <p className="max-w-[30ch] text-[22px] text-[#4e4e4e] mb-10">
+          <p className="max-w-[35ch] text-[22px] text-[#4e4e4e] mb-10">
             {props.about}
           </p>
           <div className="flex justify-between gap-3">
-            <CommunityTeam name="Lorem Ipsum Lorem" position="Head" bgColor={props.accentColor}/>
-            <CommunityTeam name="Lorem Ipsum Lorem" position="Vice" bgColor={props.accentColor}/>
+            <CommunityTeam name={props.headName} position="Head" bgColor={props.accentColor}/>
+            <CommunityTeam name={props.viceName} position="Vice" bgColor={props.accentColor}/>
           </div>
         </div>
       </div>
