@@ -11,7 +11,7 @@ interface PropsInterface {
 
 export const Cover = (props: PropsInterface) => {
   return (
-    <div className="min-h-[92vh] relative flex items-center">
+    <div className="min-h-[92vh] relative flex items-center bg-[#FCFFFE]">
       <CoverImage shortName={props.shortName} />
       <div className="flex mt-8 mx-auto justify-between w-[70%] gap-16">
         {/* Logo */}
