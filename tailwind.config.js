@@ -14,6 +14,9 @@ module.exports = {
       },
       colors: {
         "dark-red": "#B60E13"
+      },
+      screens: {
+        'ssm' : '425px'
       }
     },
   },

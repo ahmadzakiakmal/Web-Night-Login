@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/NL Assets/Night Login/square.png" />
       </Head>
 
-      <main>
+      <main className="overflow-x-hidden">
         <Navbar />
         <Hero />
         <AboutUs />
