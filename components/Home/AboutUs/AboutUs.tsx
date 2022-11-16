@@ -5,22 +5,22 @@ export const AboutUs = () => {
   return (
     <div
       id="About"
-      className="w-full bg-white relative h-[100vh] flex justify-center items-center"
+      className="w-full bg-white relative min-h-[100vh] flex justify-center items-center"
     >
       {/* png / svg  */}
-      <div className="w-[20%] h-[100vh] bg-dark-red absolute top-0 right-0 z-0"></div>
+      <div className="md:w-[20%] w-full h-full bg-dark-red absolute top-0 right-0 z-0"></div>
       <AboutUsLines />
       {/* content */}
-      <div className="z-10 w-[90%]">
-        <div className="flex text-[24px] justify-center">
-          <div className="max-w-[50ch] pr-5 self-center">
+      <div className="z-10 w-[90%] lg:w-[75%]">
+        <div className="flex justify-center items-center flex-col-reverse md:flex-row lg:justify-between">
+          <div className="max-w-[60ch] md:text-[#494949] text-white pr-5 self-center">
             <h1
-              className="text-6xl text-[#494949] font-bold mb-[20px] w-fit"
+              className="text-5xl md:text-6xl font-bold mb-[20px] text-center md:text-left"
               data-aos="fade-right"
             >
               About Us
             </h1>
-            <p data-aos="fade-right" data-aos-delay="500">
+            <p className="md:text-[24px] text-[20px] text-justify md:text-left" data-aos="fade-right" data-aos-delay="500">
               Night Login merupakan Badan Semi Otonom (BSO) di DTETI FT UGM yang
               bergerak di bidang teknologi informasi. BSO ini merupakan wadah
               bagi mahasiswa DTETI yang memiliki minat di bidang IT untuk
@@ -28,7 +28,7 @@ export const AboutUs = () => {
               wawasan terkait bidang-bidang IT.
             </p>
           </div>
-          <div className="h-[300px] aspect-square" data-aos="fade-left" >
+          <div className="w-[60%] md:w-[200px] lg:w-[300px] aspect-square mb-10 md:mb-0 md:self-center" data-aos="fade-left" >
             <Image
               src="/NL Assets/Night Login/square.png"
               width={2000}
