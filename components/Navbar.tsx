@@ -1,13 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineSearch } from "react-icons/ai";
+import { MdOutlineMenu } from "react-icons/md";
 
 export const Navbar = () => {
   return (
-    <div className="bg-black h-[8vh] flex justify-between w-full px-5">
+    <div className="bg-black h-[8vh] flex justify-between w-full px-[5%] md:px-5">
       {/* Logo */}
       <div className="h-full flex items-center gap-3">
-        <Link href="/" className="h-[70%] aspect-square flex items-center gap-3">
+        <Link
+          href="/"
+          className="h-[70%] aspect-square flex items-center gap-3"
+        >
           <Image
             src="/NL Assets/Night Login/square.png"
             width={2000}
@@ -15,14 +19,17 @@ export const Navbar = () => {
             alt="Night Login Logo"
             priority={true}
           />
-          <div className="font-bold font-Poppins text-dark-red">
+          <div className="font-bold font-Poppins text-dark-red ">
             <h1>NIGHT</h1>
             <h1>LOGIN</h1>
           </div>
         </Link>
       </div>
       {/* Nav Links */}
-      <div className="flex gap-12 text-white items-center">
+      <div className="text-white text-3xl ssm:hidden h-full flex items-center">
+        <MdOutlineMenu />
+      </div>
+      <div className="ssm:flex gap-12 text-white items-center hidden">
         <a href="#About" className="hover:text-red-600">
           About
         </a>
@@ -34,7 +41,7 @@ export const Navbar = () => {
         </a>
       </div>
       {/* Search */}
-      <div className="flex items-center">
+      <div className="lg:flex items-center hidden ">
         <form
           onSubmit={(e) => {
             e.preventDefault;
