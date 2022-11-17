@@ -16,6 +16,7 @@ export const CommunityCard = (props: PropsInterface) => {
         height={500}
         alt="Community Logo"
         className="w-3/4"
+        priority={true}
       />
     </Link>
   );
