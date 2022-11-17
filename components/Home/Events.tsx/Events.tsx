@@ -16,8 +16,8 @@ export const Events = () => {
       </h1>
       <div
         className="min-h-fit grid grid-flow-row lg:grid-cols-3 place-items-center z-10 px-[10%] md:px-[20%] lg:px-[5%] gap-10 md:gap-24 lg:gap-3"
-        // data-aos="fade-up"
-        data-aos-delay="500"
+        data-aos="fade-up"
+        // data-aos-delay="500"
       >
         <EventCard
           title="Find IT!"
