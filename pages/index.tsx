@@ -23,7 +23,7 @@ export default function Home() {
         <AboutUs />
         <Events />
         <Communities />
-        <OurTeam />
+        {/* <OurTeam /> */}
       </main>
 
       <footer className="">
