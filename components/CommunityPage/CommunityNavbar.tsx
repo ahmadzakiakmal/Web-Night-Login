@@ -1,6 +1,8 @@
 import { MdOutlineMenu } from "react-icons/md";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
+import { CommunityNavSlider } from "./CommunityNavSlider";
 
 interface PropsInterface {
   page: string;
@@ -9,24 +11,25 @@ interface PropsInterface {
 export const CommunityNavbar = (props: PropsInterface) => {
   let navBG = "";
   let linkClass = "";
+  const [openNavSlider, setOpenNavSlider] = useState(false);
   switch (props.page) {
     case "NWDC":
-      navBG = "h-[8vh] flex justify-between w-full px-5 bg-[#3D81A5]";
+      navBG = "h-[8vh] flex justify-between w-full px-5 bg-[#3D81A5] fixed top-0 right-0 z-30 shadow-[0_0_3px_white]";
       break;
     case "NADC":
-      navBG = "h-[8vh] flex justify-between w-full px-5 bg-[#B0AFA5]";
+      navBG = "h-[8vh] flex justify-between w-full px-5 bg-[#B0AFA5] fixed top-0 right-0 z-30 shadow-[0_0_3px_white]";
       break;
     case "NCPC":
-      navBG = "h-[8vh] flex justify-between w-full px-5 bg-[#30A758]";
+      navBG = "h-[8vh] flex justify-between w-full px-5 bg-[#30A758] fixed top-0 right-0 z-30 shadow-[0_0_3px_white]";
       break;
     case "NUXC":
-      navBG = "h-[8vh] flex justify-between w-full px-5 bg-[#A52A3A]";
+      navBG = "h-[8vh] flex justify-between w-full px-5 bg-[#A52A3A] fixed top-0 right-0 z-30 shadow-[0_0_3px_white]";
       break;
     case "NDDC":
-      navBG = "h-[8vh] flex justify-between w-full px-5 bg-[#312F2F]";
+      navBG = "h-[8vh] flex justify-between w-full px-5 bg-[#312F2F] fixed top-0 right-0 z-30 shadow-[0_0_3px_white]";
       break;
     case "NLNC":
-      navBG = "h-[8vh] flex justify-between w-full px-5 bg-[#59574A]";
+      navBG = "h-[8vh] flex justify-between w-full px-5 bg-[#59574A] fixed top-0 right-0 z-30 shadow-[0_0_3px_white]";
       break;
   }
 
@@ -52,7 +55,7 @@ export const CommunityNavbar = (props: PropsInterface) => {
         <div>
           <Link href="/">Home</Link>
         </div>
-        <div className="text-3xl md:hidden">
+        <div className="text-3xl md:hidden button" onClick={() => {setOpenNavSlider(!openNavSlider)}}>
           <MdOutlineMenu />
         </div>
         <div className="gap-4 hidden md:flex">
@@ -120,6 +123,8 @@ export const CommunityNavbar = (props: PropsInterface) => {
           </Link>
         </div>
       </div>
+      {/* slider */}
+      <CommunityNavSlider page={props.page} openSlider={openNavSlider} />
     </div>
   );
 };
