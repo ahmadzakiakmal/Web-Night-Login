@@ -8,7 +8,7 @@ import { useState } from "react";
 export const Navbar = () => {
   const [openNavSlider, setOpenNavSlider] = useState(false); 
   return (
-    <div className="bg-black h-[8vh] flex justify-between w-full px-[5%] md:px-5 fixed top-0 left-0 z-30">
+    <div className="bg-black h-[8vh] shadow-[0_0_10px_#B60E13] flex justify-between w-full px-[5%] md:px-5 fixed top-0 left-0 z-30">
       {/* Logo */}
       <div className="h-full flex items-center gap-3">
         <Link
