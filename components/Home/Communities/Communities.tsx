@@ -7,7 +7,7 @@ export const Communities = () => {
     <div id="Communities" className="lg:min-h-screen py-[20%] lg:py-0 bg-white relative overflow-hidden flex flex-col items-center justify-center gap-5">
       {/* <div className="h-full w-[15%] bg-dark-red absolute top-0 left-0 z-0"></div> */}
       <CommunitiesLines />
-      <h1 className="text-5xl md:text-6xl text-[#53585F] font-bold text-center z-10">
+      <h1 className="text-4xl ssm:text-5xl md:text-6xl text-[#53585F] font-bold text-center z-10">
         Our Communities
       </h1>
       <div className="grid grid-cols-2 md:grid-cols-3 mx-[5%] lg:mx-[22%] gap-x-4 gap-y-5 relative z-10">
