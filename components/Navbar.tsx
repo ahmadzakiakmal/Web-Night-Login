@@ -2,10 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineSearch } from "react-icons/ai";
 import { MdOutlineMenu } from "react-icons/md";
+import { NavSlider } from "./NavSlider";
+import { useState } from "react";
 
 export const Navbar = () => {
+  const [openNavSlider, setOpenNavSlider] = useState(false); 
   return (
-    <div className="bg-black h-[8vh] flex justify-between w-full px-[5%] md:px-5">
+    <div className="bg-black h-[8vh] flex justify-between w-full px-[5%] md:px-5 fixed top-0 left-0 z-30">
       {/* Logo */}
       <div className="h-full flex items-center gap-3">
         <Link
@@ -26,7 +29,7 @@ export const Navbar = () => {
         </Link>
       </div>
       {/* Nav Links */}
-      <div className="text-white text-3xl ssm:hidden h-full flex items-center">
+      <div className="text-white text-3xl ssm:hidden h-full flex items-center button" onClick={() => {setOpenNavSlider(!openNavSlider)}}>
         <MdOutlineMenu />
       </div>
       <div className="ssm:flex gap-12 text-white items-center hidden">
@@ -54,6 +57,8 @@ export const Navbar = () => {
           </div>
         </form>
       </div>
+      {/* Menu Slider */}
+      <NavSlider isOpen={openNavSlider} setOpen={setOpenNavSlider}/>
     </div>
   );
 };
