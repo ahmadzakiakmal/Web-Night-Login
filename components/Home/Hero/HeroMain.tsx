@@ -4,9 +4,9 @@ import styles from "/styles/Hero.module.css";
 export const HeroMain = () => {
   return (
     <div className="w-full flex flex-col items-center">
-      <div className="flex flex-col ssm:flex-row items-center gap-5 ssm:gap-12 m-auto lg:pr-[10%] h-fit">
+      <div className="flex flex-col md:flex-row items-center gap-5 ssm:gap-12 m-auto lg:pr-[10%] h-fit">
         <div
-          className="aspect-square max-w-[200px] ssm:max-w-[300px]"
+          className="aspect-square max-w-[200px] md:max-w-[300px]"
           data-aos="fade-up"
         >
           <Image
@@ -17,7 +17,7 @@ export const HeroMain = () => {
             priority={true}
           />
         </div>
-        <div className="font-bold font-Poppins md:text-[100px] text-[70px] z-10 max-h-[300px] text-dark-red tracking-wider">
+        <div className="font-bold font-Poppins text-[60px] md:text-[100px] z-10 max-h-[300px] text-dark-red tracking-wider">
           <h1
             className={styles.glow_red}
             data-aos="fade-up"
