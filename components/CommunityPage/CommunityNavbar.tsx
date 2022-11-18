@@ -1,3 +1,4 @@
+import { MdOutlineMenu } from "react-icons/md";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -51,7 +52,10 @@ export const CommunityNavbar = (props: PropsInterface) => {
         <div>
           <Link href="/">Home</Link>
         </div>
-        <div className="flex gap-4">
+        <div className="text-3xl md:hidden">
+          <MdOutlineMenu />
+        </div>
+        <div className="gap-4 hidden md:flex">
           <Link href="/#Communities">Communities</Link>
           <div className="cursor-default">|</div>
           <Link
