@@ -15,9 +15,9 @@ export const Cover = (props: PropsInterface) => {
   return (
     <div className="min-h-[92vh] relative flex items-center bg-[#FCFFFE]">
       <CoverImage shortName={props.shortName} />
-      <div className="flex mt-8 mx-auto justify-between w-[70%] gap-16">
+      <div className="flex flex-col lg:flex-row mt-8 mx-auto md:justify-between w-[80%] xl:w-[70%] gap-16 flex-shrink-0">
         {/* Logo */}
-        <div className="z-10 grid place-items-center" data-aos="fade-right">
+        <div className="z-10 aspect-square grid place-items-center" data-aos="fade-right">
           <Image
             src={`/NL Assets/${props.shortName}.png`}
             width={400}
@@ -27,7 +27,7 @@ export const Cover = (props: PropsInterface) => {
           />
         </div>
         {/* About */}
-        <div className="z-10 flex flex-col justify-center">
+        <div className="mt-[-50px] lg:mt-auto z-10 flex flex-col justify-center">
           <div className="mb-5">
             <h1
               className="text-[90px] mt-[-30px] font-bold text-[#494949] tracking-widest"
@@ -36,7 +36,7 @@ export const Cover = (props: PropsInterface) => {
               {props.shortName}
             </h1>
             <h2
-              className="mt-[-30px]  text-[#4e4e4e] max-w-[40ch]"
+              className="md:text-left mt-[-30px] text-[#4e4e4e] max-w-[40ch]"
               data-aos="fade-left"
               data-aos-delay="300"
             >{`NIGHTLOGIN ${props.communityName.toLocaleUpperCase()} COMMUNITY`}</h2>
@@ -49,7 +49,7 @@ export const Cover = (props: PropsInterface) => {
             {props.about}
           </p>
           <div
-            className="flex justify-between gap-3"
+            className="mb-20 lg:mb-auto flex flex-col lg:flex-row justify-between gap-3"
             data-aos="fade-left"
             data-aos-delay="900"
           >
