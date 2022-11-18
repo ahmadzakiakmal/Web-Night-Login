@@ -28,7 +28,7 @@ export const AboutUs = () => {
               wawasan terkait bidang-bidang IT.
             </p>
           </div>
-          <div className="w-[60%] md:w-[200px] lg:w-[300px] flex-shrink-0 aspect-square mb-10 md:mb-0 md:self-center" data-aos="fade-left" >
+          <div className="w-[200px] lg:w-[250px] flex-shrink-0 aspect-square mb-10 md:mb-0 md:self-center" data-aos="fade-left" >
             <Image
               src="/NL Assets/Night Login/square.png"
               width={2000}
