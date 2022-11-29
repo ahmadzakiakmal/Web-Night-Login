@@ -4,6 +4,8 @@ Made for Night Login's NWDC X NUXC Profile Web Contest.
 
 You can visit the website [here](https://web-night-login.vercel.app).
 
+🥳 WON 3RD PLACE 🎉
+
 ## Team Member
 
 [Rizky Junian Nugroho](https://github.com/JunianN) - UI/UX Designer
